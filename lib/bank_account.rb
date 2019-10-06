@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(money)
-    @balance << money
+    new_balnce = @balance + money
   end
 
 end
